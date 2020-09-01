@@ -32,17 +32,16 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-            <muleVersion>${mule.version}</muleVersion> 
+            <muleVersion>4.3.0</muleVersion> 
             <username>${anypoint.username}</username> 
             <password>${anypoint.password}</password> 
-            <applicationName>${artifactId}-${maven.build.timestamp}</applicationName> 
+            <applicationName>mule-demo</applicationName> 
             <environment>${cloundhub.env}</environment> 
             <businessGroup>${anypoint.businessGroup}</businessGroup>
             <region>${cloudhub.region}</region>
             <uri>${anypoint.uri}</uri> 
             <workerType>${cloudhub.workerType}</workerType> 
             <workers>${cloudhub.workers}</workers>
-            <muleVersion>4.3.0</muleVersion>
           </cloudHubDeployment>
         </configuration>
         <executions>
