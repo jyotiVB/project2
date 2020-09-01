@@ -37,6 +37,8 @@
             <password>ennVee@1234</password> 
             <applicationName>mule-demo</applicationName> 
             <environment>Sandbox</environment> 
+            <businessGroup>${anypoint.businessGroup}</businessGroup>
+            <region>${cloudhub.region}</region>
             <uri>https://anypoint.mulesoft.com</uri> 
             <workerType>Micro</workerType> 
             <workers>1</workers>
