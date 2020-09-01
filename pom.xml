@@ -39,9 +39,9 @@
             <environment>Sandbox</environment> 
             <businessGroup>${anypoint.businessGroup}</businessGroup>
             <region>${cloudhub.region}</region>
-            <uri>https://anypoint.mulesoft.com</uri> 
-            <workerType>Micro</workerType> 
-            <workers>1</workers>
+            <uri>${anypoint.uri}</uri> 
+            <workerType>${cloudhub.workerType}</workerType> 
+            <workers>${cloudhub.workers}</workers>
           </cloudHubDeployment>
         </configuration>
         <executions>
