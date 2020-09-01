@@ -38,6 +38,7 @@
 				<workers>1</workers>
 				<workerType>Micro</workerType>
 				<applicationName>World-TimeZone-service</applicationName>
+				<uri>https://anypoint.mulesoft.com/</uri>
 				<muleVersion>4.3.0</muleVersion>
 				</cloudHubDeployment>
 				</configuration>
