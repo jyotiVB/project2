@@ -32,16 +32,27 @@
 				<extensions>true</extensions>
 				<configuration>
 				<cloudHubDeployment>
-				<username>jyotitest18</username>
-				<password>ennVee@1234</password>
-				<environment>Sandbox</environment>
-				<workers>1</workers>
-				<workerType>Micro</workerType>
-				<applicationName>World-TimeZone-service</applicationName>
-				<uri>https://anypoint.mulesoft.com/</uri>
-				<muleVersion>4.3.0</muleVersion>
-				</cloudHubDeployment>
-				</configuration>
+            <muleVersion>${mule.version}</muleVersion> 
+            <username>${anypoint.username}</username> 
+            <password>${anypoint.password}</password> 
+            <applicationName>${artifactId}-${maven.build.timestamp}</applicationName> 
+            <environment>${cloundhub.env}</environment> 
+            <businessGroup>${anypoint.businessGroup}</businessGroup>
+            <region>${cloudhub.region}</region>
+            <uri>${anypoint.uri}</uri> 
+            <workerType>${cloudhub.workerType}</workerType> 
+            <workers>${cloudhub.workers}</workers>
+          </cloudHubDeployment>
+        </configuration>
+        <executions>
+          <execution>
+            <id>deploy</id>
+            <phase>deploy</phase>
+            <goals>
+              <goal>deploy</goal>
+            </goals>
+          </execution>
+        </executions>
 			</plugin>
 		</plugins>
 	</build>
