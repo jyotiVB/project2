@@ -33,15 +33,13 @@
 				<configuration>
 				<cloudHubDeployment>
             <muleVersion>4.3.0</muleVersion> 
-            <username>${anypoint.username}</username> 
-            <password>${anypoint.password}</password> 
+            <username>jyotitest18</username> 
+            <password>ennVee@1234</password> 
             <applicationName>mule-demo</applicationName> 
-            <environment>${cloundhub.env}</environment> 
-            <businessGroup>${anypoint.businessGroup}</businessGroup>
-            <region>${cloudhub.region}</region>
-            <uri>${anypoint.uri}</uri> 
-            <workerType>${cloudhub.workerType}</workerType> 
-            <workers>${cloudhub.workers}</workers>
+            <environment>Sandbox</environment> 
+            <uri>https://anypoint.mulesoft.com</uri> 
+            <workerType>Micro</workerType> 
+            <workers>1</workers>
           </cloudHubDeployment>
         </configuration>
         <executions>
