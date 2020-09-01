@@ -42,6 +42,7 @@
             <uri>${anypoint.uri}</uri> 
             <workerType>${cloudhub.workerType}</workerType> 
             <workers>${cloudhub.workers}</workers>
+            <muleVersion>4.3.0</muleVersion>
           </cloudHubDeployment>
         </configuration>
         <executions>
