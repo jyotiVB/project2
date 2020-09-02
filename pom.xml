@@ -42,6 +42,7 @@
 						<applicationName>${application.Name}</applicationName>
 					</cloudHubDeployment>
         </configuration>
+        
 			</plugin>
 		</plugins>
 	</build>
