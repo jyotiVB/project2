@@ -38,6 +38,7 @@
 						<environment>${environment}</environment>
 						<uri>${uri}</uri>
 						<workerType>${worker.Type}</workerType>
+						<workers>1</workers>
 						<objectStoreV2>true</objectStoreV2>
 						<applicationName>${application.Name}</applicationName>
 					</cloudHubDeployment>
